@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*header*/
+header{
+    background-color: salmon;
+    padding: 20px;
+    color: seashell;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+header p {
+    padding-bottom: 10px;
+}
+
+
+/*main*/
+main{
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 25px;
+}
+
+main form{
+    width: 40%;
+    background-color:rgb(241, 252, 218);
+    border-radius: 4px;
+    height: 100%;
+}
+
+main article{
+    max-width: 35%;
+}
+
+main article h2 {
+    text-align: center;
+    background-color:rgb(241, 252, 218);
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+}
+
+main form label,
+main form button {
+    display: block;
+    padding: 4px 0;
+    border: 5px;
+    margin-bottom: 3.5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main form input,
+main form textarea, 
+main form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+main form button{
+    background-color: rgb(194, 189, 189);
+}
+
+
+/*article*/
+img {
+    max-width: 100%;
+}
+
+article h3, h4, p{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+article p {
+    margin-bottom: 15px;
+}
+article button{
+    width: 50%;
+}
+
+.card{
+    padding: 20px;
+    background-color:#efefef;
+    margin-bottom: 20px;
+}
